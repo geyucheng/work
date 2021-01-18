@@ -1,0 +1,22 @@
+.sample1{
+    display: flex;
+    justify-content: space-around;
+    border:5px solid saddlebrown;
+    background-color: aqua;
+    font: italic bold 12px/30px arial,sans-serif;
+    padding: 1.0cm 0.5cm;
+}
+.sample2{
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    align-items:center;
+    align-content: inherit;
+    flex-wrap: wrap;
+}
+.item3{
+    display: flex;
+    padding: 2%;
+    flex: 1%;
+    order: inherit;
+}
